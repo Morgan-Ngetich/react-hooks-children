@@ -12,9 +12,11 @@ function Container({
       {header ? <h2>{header}</h2> : null}
 
       <div className={`container-children ${direction} ${contentPosition}`}>
-        {children}
-      </div>
+        {children}        
+             
+      </div>       
     </div>
+    
   );
 }
 
